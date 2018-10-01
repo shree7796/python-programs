@@ -1,0 +1,9 @@
+class A:
+    def __init__(self,a):
+        self.a = a*a
+    def show(self):
+        print("square is:--",self.a)
+
+n = int(input("enter any number"))
+obj = A(n)
+obj.show()
