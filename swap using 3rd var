@@ -1,0 +1,13 @@
+class swap:
+    def __init__(self,a,b):
+        self.a= a
+        self.b = b
+    def show(self):
+        print("before swapping\na=",self.a,"b=",self.b)
+        c = self.a
+        self.a = self.b
+        self.b = c
+        print("after swapping\na=",self.a,"b=",self.b)
+
+obj = swap(2,5)
+obj.show()
