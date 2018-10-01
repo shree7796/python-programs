@@ -1,0 +1,11 @@
+class circle:
+    pi = 3.14
+    def __init__(self,r):
+        self.r = r
+    def show(self):
+        area = circle.pi*self.r*self.r
+        print("area of circlr is :--",area)
+
+n = int(input("enter radius"))
+obj = circle(n)
+obj.sh
