@@ -1,2 +1,2 @@
 # python-programs
-python programs by OOPs
+python programs by OOPs concepts
