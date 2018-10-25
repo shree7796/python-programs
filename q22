@@ -1,0 +1,10 @@
+num = int(input('Enter three digit number'))
+first = num//100
+second = (num//10)%10
+third = num%10
+if first>second and first>third:
+    print('number first is grater')
+elif second>first and second>third:
+    print('second is grater')
+else:
+    print('third is grater')

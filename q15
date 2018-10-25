@@ -1,0 +1,17 @@
+num = int(input('Enter a three digit number'))
+first = num//100
+second = (num//10)%10
+third = num%10
+print('first number:--',first)
+print('second number:--',second)
+print('third number:--',third)
+a=first
+first=second
+second=third
+third=a
+a=second
+second=first
+first=a
+print('values of first second nd third are:--',first,second,third)
+sum = first+second+third
+print('sum of reverse number is:--',sum)

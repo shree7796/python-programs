@@ -1,0 +1,10 @@
+basicsalary = int(input('Enter basic salary:--'))
+ta = basicsalary*(10/100)
+print('ta is:--',ta)
+pf = basicsalary*(7.8/100)
+print('pf is:--',pf)
+da = 500
+gs = basicsalary+da+ta
+print('gross salary is:--',gs)
+ns = gs-pf
+print('net salary is:--',ns)

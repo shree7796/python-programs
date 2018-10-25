@@ -1,0 +1,13 @@
+ch = str(input('Enter any character'))
+if ch=='a' or ch=='A':
+    print('character is vowel')
+elif ch=='e' or ch=='E':
+    print('character is vowel')
+elif ch=='i' or ch=='I':
+    print('character is vowel')
+elif ch=='o' or ch=='O':
+    print('character is vowel')
+elif ch=='u' or ch=='U':
+    print('character is vowel')
+else:
+    print('character is conconent')

@@ -1,0 +1,7 @@
+character = str(input("Enter a character:--"))
+if character.islower():
+    print("character is in lower case")
+elif character.isupper():
+    print("character is in upper case")
+else:
+    print("wrong input")

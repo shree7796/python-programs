@@ -1,0 +1,11 @@
+phy = int(input('enter physics marks:--'))
+che = int(input('enter chemistry marks:--'))
+mat = int(input('enter maths marks:--'))
+eng = int(input('enter english marks:--'))
+hin = int(input('enter hindi marks:--'))
+totalmarks = phy+che+mat+eng+hin
+print('total marks:--',totalmarks)
+outof = 500
+print('outof:--',outof)
+per = totalmarks/outof*100
+print(per)

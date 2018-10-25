@@ -1,0 +1,8 @@
+num = str(input('enter a three digit numer'))
+print(num)
+reverse=(num[::-1])
+print(reverse)
+if num==reverse:
+    print('number is palindrome')
+else:
+    print('number is not palindrome')

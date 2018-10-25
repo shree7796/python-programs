@@ -1,0 +1,12 @@
+num = int(input('Enter a three digit number;--'))
+first = num//100
+second = (num//10)%10
+third = num%10
+num1 = first**3
+num2 = second**3
+num3 = third**3
+total = num1+num2+num3
+if total==num:
+    print('number is Armstrong')
+else:
+    print('number is not Armstrong')
